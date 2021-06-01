@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="0Fz-bh-Y0A" customClass="CategoryTitleTableViewCell" customModule="WikiFilms" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Fz-bh-Y0A" id="QOX-Ls-Djg">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2l-nJ-Zvf">
+                        <rect key="frame" x="20" y="20" width="290" height="47"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Y2l-nJ-Zvf" firstAttribute="leading" secondItem="QOX-Ls-Djg" secondAttribute="leading" constant="20" id="3k3-V4-ZVF"/>
+                    <constraint firstItem="Y2l-nJ-Zvf" firstAttribute="top" secondItem="QOX-Ls-Djg" secondAttribute="top" constant="20" id="OW4-cN-vJ5"/>
+                    <constraint firstAttribute="trailing" secondItem="Y2l-nJ-Zvf" secondAttribute="trailing" constant="10" id="fl4-7z-mnH"/>
+                    <constraint firstAttribute="bottom" secondItem="Y2l-nJ-Zvf" secondAttribute="bottom" constant="20" id="hQ0-RB-3a7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="NBf-Se-aeY"/>
+            <connections>
+                <outlet property="titleLabel" destination="Y2l-nJ-Zvf" id="QRw-On-IYO"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="114.17410714285714"/>
+        </tableViewCell>
+    </objects>
+</document>
